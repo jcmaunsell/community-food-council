@@ -452,7 +452,7 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 0.5rem;
 }
 
 button:focus:not(:focus-visible) {
@@ -9147,6 +9147,7 @@ textarea.form-control-lg {
     margin-left: 0 !important;
   }
   .mx-sm-1 {
+    margin: 1px;
     margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
   }

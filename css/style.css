@@ -1,0 +1,132 @@
+@import "bootstrap.css";
+
+
+body, footer {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+body .row {
+    margin: 0 2rem 0.5rem;
+}
+
+.cfc-logo {
+    padding: 1rem 2rem 0.5rem;
+    margin: auto;
+}
+
+.cfc-logo img {
+    max-height: 300px;
+    display: block;
+    object-fit: scale-down;
+    width: 100%;
+    height: 100%;
+}
+
+.donate {
+    text-align: center;
+    padding: 0.5rem 2rem;
+    display: block;
+}
+
+.donate a {
+    color: white;
+    padding: 0.5rem 2rem;
+    background-color: deepskyblue;
+    border-radius: 0.5rem;
+    font-size: xx-large;
+}
+
+.text {
+    text-align: center;
+    display: block;
+    padding: 1rem 2rem 0;
+    color: white;
+    text-wrap: normal;
+}
+
+.text h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.text h3 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.text p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.announcement {
+    border-radius: 0.5rem;
+    border: 5px solid darkorange;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.announcement h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+.announcement p {
+    font-size: x-large;
+    color: darkorange;
+}
+
+.view {
+    display: block;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background: white;
+    height: 300px;
+}
+
+.view img, .view iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    object-fit: contain;
+}
+
+.logo {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    height: 120px;
+    object-fit: contain;
+}
+
+.logo img {
+    padding: 0.5rem;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+footer {
+    padding: 0.5rem 2rem 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    font-size: small;
+    margin-bottom: 0;
+    color: white;
+}
