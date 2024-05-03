@@ -21,7 +21,7 @@ body .row {
 }
 
 .cfc-logo img {
-    max-height: 300px;
+    max-height: 200px;
     display: block;
     object-fit: scale-down;
     width: 100%;
@@ -30,16 +30,21 @@ body .row {
 
 .donate {
     text-align: center;
-    padding: 0.5rem 2rem;
     display: block;
+    border-radius: 0.5rem;
+    margin: 1rem;
 }
 
 .donate a {
-    color: white;
+    color: skyblue;
     padding: 0.5rem 2rem;
-    background-color: deepskyblue;
+    border: 5px solid skyblue;
     border-radius: 0.5rem;
     font-size: xx-large;
+}
+
+.donate h3, .donate p {
+    color: skyblue;
 }
 
 .text {
@@ -49,6 +54,10 @@ body .row {
     color: white;
     text-wrap: normal;
 }
+.text h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+}
 
 .text h2 {
     font-size: xx-large;
@@ -56,33 +65,26 @@ body .row {
 }
 
 .text h3 {
-    font-size: large;
+    font-size: x-large;
     font-weight: bolder;
 }
 
 .text p {
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
 }
 
 .announcement {
     border-radius: 0.5rem;
-    border: 5px solid darkorange;
-    padding: 1rem 2rem;
+    border: 5px solid orange;
     text-align: center;
     margin: auto;
     display: block;
 }
 
-.announcement h1 {
-    font-size: xx-large;
+.announcement h2, .announcement h3, .announcement p {
+    color: orange;
     font-weight: bolder;
-    color: darkorange;
-}
-
-.announcement p {
-    font-size: x-large;
-    color: darkorange;
 }
 
 .view {
