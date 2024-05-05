@@ -18,9 +18,19 @@ body .row {
 .cfc-logo {
     object-fit: scale-down;
     max-height: 240px;
+    max-width: 100%;
     border-radius: 0.5rem;
     margin: 1rem auto;
     display: block;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: scale-down;
+    height: 240px;
+    border-radius: 0.5rem;
 }
 
 .donate {
@@ -94,15 +104,6 @@ body .row {
     height: 100%;
     object-fit: contain;
     margin: auto;
-}
-
-iframe {
-    display: block;
-    margin: auto;
-    width: 100%;
-    object-fit: contain;
-    height: 240px;
-    border-radius: 0.5rem;
 }
 
 .logo {
