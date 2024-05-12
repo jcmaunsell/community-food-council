@@ -17,7 +17,7 @@ body .row {
 
 .cfc-logo {
     object-fit: scale-down;
-    max-height: 240px;
+    max-height: 270px;
     max-width: 100%;
     border-radius: 0.5rem;
     margin: 1rem auto;
@@ -26,10 +26,10 @@ body .row {
 
 iframe {
     display: block;
-    margin: auto;
+    margin: 1rem auto;
     width: 100%;
     object-fit: scale-down;
-    height: 240px;
+    height: 180px;
     border-radius: 0.5rem;
 }
 
@@ -39,7 +39,7 @@ iframe {
     border-radius: 0.5rem;
     border: 5px solid skyblue;
     padding: 2rem 0.5rem;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 .donate a {
@@ -55,8 +55,8 @@ iframe {
     display: block;
     padding: 1rem 2rem 0;
     color: white;
-    text-wrap: normal;
 }
+
 .text h1 {
     font-size: xxx-large;
     font-weight: bolder;
@@ -134,4 +134,8 @@ footer p {
     font-size: small;
     margin-bottom: 0;
     color: white;
+}
+
+body {
+    background-color: darkblue;
 }
